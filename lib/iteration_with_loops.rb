@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
 weekly_lows = []
 row_index = 0 
 
-while row_index.count < src.count do 
+while row_index < src.count do 
   element_index = 0 
   lowest_temperature = 100 
   while element_index < src[row_index].count do
